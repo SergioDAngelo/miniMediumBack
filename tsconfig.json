@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "rootDir": "./",
+  },
+  "include": ["src/**/*",
+  "node_modules/@prisma/client", "src/index.ts"]
+}
+
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "target": "ES2022",
+//     "sourceMap": true,
+//     "outDir": "dist",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//   },
+//   "lib": ["es2022"],
+//   "include": ["src/**/*",
+//      "node_modules/@prisma/client", "index.ts", "src/routes/post", "src/routes/user"],
+//   "exclude": ["node_modules"]
+// }
+
+//"lib": ["esnext"],
+// {
+//     "compilerOptions": {
+//       "module": "commonjs",
+//       "declaration": true,
+//       "removeComments": true,
+//       "emitDecoratorMetadata": true,
+//       "experimentalDecorators": true,
+//       "allowSyntheticDefaultImports": true,
+//       "esModuleInterop": true,
+//       "target": "ES2022",
+//       "sourceMap": true,
+//       "outDir": "./dist",
+//       "baseUrl": "./src",
+//       "rootDir": "./",
+//       "moduleResolution": "node",
+//       "incremental": true,
+//       "skipLibCheck": true,
+//       "strict": true,
+//       "strictNullChecks": true,
+//       "noImplicitAny": true,
+//       "forceConsistentCasingInFileNames": true,
+//       "noFallthroughCasesInSwitch": true,
+//       "paths": {
+//         "@*": ["./*"]
+//       }
+//     },
+//     "lib": ["es2022"],
+//     "include": ["src/**/*",
+//     "node_modules/@prisma/client", "index.ts", "src/routes/post", "src/routes/user"],
+//     "exclude": ["node_modules"]
+// }

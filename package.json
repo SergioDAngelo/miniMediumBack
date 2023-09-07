@@ -1,0 +1,40 @@
+{
+  "name": "mediumapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "db:migrate": "prisma migrate deploy",
+    "db:make-migrations": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Sergio DAngelo",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "@types/date-fns": "^2.6.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "express": "^4.18.2",
+    "package.json": "^2.0.1",
+    "prisma": "^5.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.7",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
